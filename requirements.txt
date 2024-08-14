@@ -1,0 +1,4 @@
+pyasn1
+impacket
+requests
+colorama

@@ -1,8 +1,11 @@
 # SeamlessPass
-Leveraging Kerberos tickets to get Microsoft 365 access tokens using Seamless SSO
+**Leveraging Kerberos tickets to get Microsoft 365 access tokens using Seamless SSO**
+
 ---
 
-SeamlessPass is a tool for obtaining Microsoft 365 access tokens using on-premises Active Directory Kerberos tickets for organization with enabled Seamless SSO (Desktop SSO) feature. 
+SeamlessPass is a tool designed to obtain Microsoft 365 access tokens using on-premises Active Directory Kerberos tickets for organizations with Seamless SSO (Desktop SSO) enabled. These tokens can be used for further interaction with Microsoft 365 services via APIs or other tools like ROADTools and AADInternals for more offensive capabilities.
+
+
 
 ## Installation
 
@@ -96,7 +99,7 @@ Examples:
 
 ## Use Cases
 
-The tool can be used to obtain access tokens for Microsoft 365 services for tenants with enabled Seamless SSO feature. The access tokens can be then fed to other tools such as `ROADTools` and `AADInternals` for further enumeration or offensive capabilities. The tool can be very handy in various situations where the **cleartext password of the user is unknown** but other forms of access are obtainable such as
+SeamlessPass can be used to obtain access tokens for Microsoft 365 services for tenants with enabled Seamless SSO feature. The access tokens can be then fed to other tools like `ROADTools` and `AADInternals` for further enumeration or offensive capabilities. The tool can be very handy in various situations where the **cleartext password of the user is unavailable** but other forms of access are obtainable such as
 
 - Using compromised user’s Ticket-Granting-Ticket (TGT) or forged Golden Ticket 
 (*Interacts with DC)*

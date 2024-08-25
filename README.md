@@ -5,6 +5,8 @@
 
 SeamlessPass is a tool designed to obtain Microsoft 365 access tokens using on-premises Active Directory Kerberos tickets for organizations with Seamless SSO (Desktop SSO) enabled. These tokens can be used for further interaction with Microsoft 365 services via APIs or other tools like ROADTools and AADInternals for more offensive capabilities.
 
+More information about the theory and use case scenarios can be found at the blog post (https://malcrove.com/seamlesspass-leveraging-kerberos-tickets-to-access-the-cloud/)
+
 
 
 ## Installation
